@@ -25,6 +25,10 @@ app.get("/news", (req, res) => {
   res.render("news");
 });
 
+app.get("/about", (req, res) => {
+  res.render("about");
+});
+
 // 127.0.0.1 - localhost:3000
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
